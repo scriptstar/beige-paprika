@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://5pages.netlify.app/"
 languageCode = "en-us"
 title = "5 Pages A Day"
 description = "Daily I read five pages from various books and provide my thoughts on the subject"
