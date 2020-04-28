@@ -5,7 +5,7 @@ publishDir: public
 staticDir: static
 uploadDir: images/books/
 dataDir: data
-pagesDir: content
+pagesDir: content/books
 models:
   pagenotfound:
     type: page
