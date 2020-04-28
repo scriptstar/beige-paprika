@@ -5,7 +5,7 @@ publishDir: public
 staticDir: static
 uploadDir: images/books/
 dataDir: data
-pagesDir: content/books
+pagesDir: content
 models:
   pagenotfound:
     type: page
@@ -21,7 +21,7 @@ models:
   bookspage:
     type: page
     label: Book
-    folder: books
+    folder: 'content/books/'
     match: '*.md'
     fields:
       - type: string
@@ -68,7 +68,7 @@ models:
   startpage:
     type: page
     label: start
-    folder: page
+    folder: 'content/page/'
     match: '*.md'
     exclude: _index.md
     fields:
